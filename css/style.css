@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    background: #f0f2f5;
+    display: flex;
+}
+
+/*? CSS de login.php : */
+
+.header{
+    flex-basis: 50%;
+    margin: 28vh 5% 0 18%;
+    font-family: "Segoe UI", Roboto, "San Francisco";
+}
+
+.header img{
+    width: 250px;
+}
+
+figcaption{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top: 12px;
+}
+
+.wrapper{
+    flex-basis: 50%;
+    margin-top: 17vh;
+    margin-right: 20vh;
+}
+
+.seConnecter{
+    background: #fff;
+    width: 396px;
+    height: 315px;
+    padding: 10px 5px 20px 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px -7px;
+}
+
+.email, .mdp{
+    display: block;
+    background: #fff;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 280px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.boutonConnexion{
+    border: none;
+    background: #1877f2;
+    color: white;
+    margin: auto;
+    width: 363px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.mdpOubli{
+    display: block;
+    width: 156px;
+    margin: 10px auto 10px auto;
+    color: #1877f2;
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+
+/* .mdpOubli:hover{
+    border-bottom: 1px solid;
+} */
+
+.ligne{
+    border-top: 1px solid #222;
+    opacity: 0.2;
+}
+
+.creerCompte{
+    width: 195px;
+    background: #42b72a;
+    border: none;
+    color: white;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 11px 16px;
+    margin-top: 36px;
+}
+
+.lienBasDePage{
+    font-family: "Segoe UI", Arial;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 78px;
+}
+
+.lienBasDePage a:visited{
+    color: black;
+}
+
+.lienBasDePage a{
+    font-weight: bold;
+}
+
+/*? Affichage message erreur login.php : */
+
+.messageErreur{
+    color: red;
+    font-family: "Segoe UI", Roboto, "San Francisco";
+    text-align: center;
+}
+
+/*? CSS de creerCompte.php : */
+
+.header2{
+    flex-basis: 50%;
+    margin: 28vh 5% 0 18%;
+    font-family: "Segoe UI", Roboto, "San Francisco";
+}
+
+.formulaire{
+    background: #fff;
+    width: 396px;
+    height: 375px;
+    padding: 10px 5px 20px 5px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 6px -7px;
+}
+
+.boutonConnexion2{
+    margin-top: 10px;
+}
+
+.boutonConnexion2:hover{
+    background: #42b72a;
+}
+
+.champs{
+    text-align: center;
+    font-family: "Segoe UI", Arial;
+    font-size: 14px;
+}
+
+.titreCreationCompte{
+    color: #1877f2;
+}
+
+
+@media (max-width: 1200px) {
+
+    body{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header{
+        flex-basis: 100%;
+        margin: 8vh 0 8vh 13vh;
+    }
+
+    .wrapper{
+        flex-basis: 100%;
+        margin: 0;
+    }
+
+    .header2{
+        flex-basis: 100%;
+        margin: 8vh 0 8vh 0vh;
+        text-align: center;
+    }
+
+}
